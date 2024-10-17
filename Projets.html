@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset="UTF8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Myriam Sion</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="CSS2.css">
+    </header>
+    <body>
+
+        <div class="wrapper"> 
+            <div class="container">
+                <a href="#section-0"><img id="img1" class="grid-img" src="./images/Section1/Octobre rose.jpg"></a>
+                <a id="Pastiches" href="https://heyzine.com/flip-book/00e7e13eee.html"><img class="grid-img" src="./images/pastiches.png"></a>
+                <a href="https://tirage-de-tetes.fr/produit/les-branches-le-choix-de-capucine/"><img class="grid-img" src="./images/couv-2.jpg"></a>
+                <img class="grid-img" src="./images/Primary logo.png">
+                <a href="#section-5"><img class="grid-img" src="./images/Section5/aquaflores.png"></a>
+                <a href="./index.html"><ion-icon id="retour" name="arrow-back-circle-outline" ></ion-icon></a>
+            </div>
+            <h1>PROJETS</h1>
+            
+        </div>
+        <section id="section-0">
+            <div id="section-1">
+                <img id="section-1-img1" src="./images/Section1/Affiche.png" >
+                <div id="section-1-1">
+                    <h2 style="color: #870936;">Octobre Rose</h2>
+                    <h3 style="color: #870936;">Projet de Street Art</h3>
+                    <p style="color: #870936;"><b>Concept</b></p>
+                    <p>Tous les mois d’octobre sont menées des campagnes de sensibilisation au cancer du sein, avec une incitation au dépistage. J'ai imaginé une campagne qui s’appuierait sur le street art.<br>
+                        On pourrait trouver dans la ville de Paris plusieurs portraits de femme, connectés entre eux par le code couleur rose et niveaux de gris.<br>
+                        Le but est de montrer par des images la réalité du cancer du sein, quelles sont les femmes les plus touchées et les différents niveaux d'intervention.<br>
+                        Le premier visuel présenté peut être choquant car il montre l'une des réalités du cancer du sein qui impressionne/effraie le plus, raison pour laquelle le projet s'appuierait sur plusieurs illustrations de femme. Le but est de communiquer et d'accompagner une démarche, aps de faire peur.
+                        L'affiche présentée à gauche serait collée en plusieurs exemplaires sur les lieux peints : une image ne suffit pas à indiquer au passant à qui il ou elle doit s'adresser.
+                    </p>
+                </div>
+                <img id="section-1-img2" src="./images/Section1/Octobre rose.jpg">
+            </div>
+        </section>
+        <section id="section-2">
+            <div id="section-5">
+                <img id="section-5-img1" src="./images/Section5/Aquaflores-accueil.png">
+                <div id="section-5-1">
+                    <div>
+                        <div><h2 style="color: #1f1313;">But</h2><p>Sensibiliser sur la question de l’eau</p></div>
+                        
+                        <h2 style="color: #1f1313;">Public</h2><p>Enfants et leurs parents</p>
+                    </div>
+                    <div id="section-1-1">
+                        <i>Projet de groupe</i><br>
+                        <h2 style="color: #1f1313;">Rôle</h2><p>Responsable UX/UI</br>Rédactrice</p>
+                    </div>
+                </div>
+               <div id="section-5-3">
+                        <h2 style="color: #1f1313;">Concept</h2>
+                        <p>Le but de l’application est d’apprendre à gérer sa consommation d’eau et d’en savoir plus sur l’eau que l’on boit en général.</br>
+                            Le principe du jeu serait similaire à celui du Tamagochi. Dans le jeu Tamagochi, il faut se connecter tous les jours pour nourrir et prendre soin de son Tamagochi, une sorte d’animal, dans le but de le faire grandir et de maintenir en vie.</br>
+                            Dans notre jeu, le Tamagochi est un jardin que l’enfant entretiendrait. Pour ce faire, il doit se connecter tous les jours pour réaliser des défis sur le thème de l’eau. Ces défis pourraient prendre plusieurs formes : des quizz, des ateliers bricolages, des mini-jeux etc. Il y aurait une limite maximum de deux défis par jour. Les défis, au maximum, se concentreraient sur des situations réelles (ex : “Ferme l’eau du robinet quand tu te brosses les dents”), pour pousser l’enfant à faire des parallèles avec sa propre vie et ensuite réguler sa propre consommation d’eau. Chacun des défis permet d’acquérir de nouvelles connaissances sur l’eau et de gagner des points, qui à leur tour, permettent d'acheter de l'engrais ou de nouvelles plantes pour son jardin.
+                        </p>
+                    <img id="section-5-img2" src="./images/Section5/Aquaflores-structure.png">
+                </div>
+            </div>
+        </section>
+
+
+        <script type="text/javascript">
+            console.log("prêt")
+            function show(nomFichier) {
+                console.log(nomFichier);
+                document.getElementById("img1").src=nomFichier;
+                /*Ce que veut dire la commande : dans le document, va chercher l'élément qui possède l'id "img1" et lui attribue la valeur qui se trouve entre les parenthèses à l'endroit du html où la fonction a été appelée*/
+            }
+        </script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>

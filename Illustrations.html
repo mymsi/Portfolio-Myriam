@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset="UTF8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Illustrations</title>
+        <link rel="stylesheet" href="CSSI.css">
+    </header>
+    <body>
+        <div id="popUpBg">
+            <div id="popUpContent">
+                <div id="popUpClose">
+                    <ion-icon name="close-circle"></ion-icon>
+                </div>
+                <img id="popUpImg" src="#" alt="#">
+            </div>
+        </div>
+
+        <div id="grid"> <!-- cette div est en flexbox > vertical-flow + no overflow -->
+            <div class="grid-item" id="illustration-8"><img src="./images/illustration-8.jpg" alt="" class="grid-img"></div>
+            <div class="grid-item" id="illustration-9"><img src="./images/illustration-9.jpg" alt="" class="grid-img"></div>
+            <div class="grid-item" id="illustration-10"><img src="./images/illustration-10.jpg" alt="" class="grid-img"></div>
+            <div class="grid-item" id="illustration-1"><img src="./images/illustration-1.jpg" alt="" class="grid-img"></div>
+            <div class="grid-item" id="illustration-2"><img src="./images/illustration-2.jpg" alt="" class="grid-img"></div>
+            <div class="grid-item" id="illustration-3"><img src="./images/illustration-3.jpg" alt="" class="grid-img"></div>
+            <div class="grid-item" id="illustration-4"><img src="./images/illustration-4.jpg" alt="" class="grid-img"></div>
+            <div class="grid-item" id="illustration-5"><img src="./images/illustration-5.jpg" alt="" class="grid-img"></div>
+            <div class="grid-item" id="illustration-6"><img src="./images/illustration-6.jpg" alt="" class="grid-img"></div>
+            <div class="grid-item" id="illustration-7"><img src="./images/illustration-7.jpg" alt="" class="grid-img"></div>
+            <div class="grid-item" id="illustration-11"><img src="./images/illustration-11.jpg" alt="" class="grid-img"></div>
+            <div class="grid-item" id="illustration-12"><img src="./images/illustration-12.jpg" alt="" class="grid-img"></div>
+            <div class="grid-item" id="illustration-13"><img src="./images/illustration-13.jpg" alt="" class="grid-img"></div>
+            <div class="grid-item" id="illustration-14"><img src="./images/illustration-14.jpg" alt="" class="grid-img"></div>
+            <div class="grid-item" id="illustration-15"><img src="./images/illustration-15.jpg" alt="" class="grid-img"></div>
+            <div class="grid-item" id="illustration-16"><img src="" alt="" class="grid-img"></div>
+        </div>
+        
+        <a href="https://www.instagram.com/marleo_44/?next=%2F" alt="Accéder à mon Instagram" id="Instagram"></a>
+
+        
+        
+        <script>
+            let allGridItems = [...document.getElementsByClassName("grid-item")];
+            let popupBg = document.getElementById("popUpBg");
+            let popupImg = document.getElementById("popUpImg");
+
+            const openPopup = (e) => {
+                let gridItemCliked = e.target.closest(".grid-item");
+                let clickedImageName = gridItemCliked.id;
+                popupBg.classList.add("active");
+                popupImg.src = `./images/${clickedImageName}.jpg`;
+            };
+            
+            const closePopup = () => {
+                popupBg.classList.remove("active");
+            }
+
+            allGridItems.forEach((el) => el.addEventListener("click", openPopup));
+            popupImg.addEventListener("click", (e) => e.stopPropagation());
+            popupBg.addEventListener("click", closePopup);
+
+            document.getElementById("illustration-17").onmouseover.show('.images/CV2.png');
+            
+            
+        </script>
+       <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+       <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>

@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f17c07;
+    overflow: auto; /*permet à la pop-up de toujours apparaitre au milieu de l'écran*/
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+    height: 50vh;
+    background-color: #4f025a;
+}
+#second{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-left: 60%;
+}
+#flex-0{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+#flex-1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 95vw;
+    margin: 0;
+}
+#flex-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95vw;
+    float: left;
+}
+img{
+    width: 365px;
+    height: 365px;
+    object-fit: cover;
+    display: block;
+}
+
+h2{
+    font-family: "Abril Fatface", serif;
+    font-size: 50px;
+    color: bisque;
+    text-decoration: none;
+    text-align: right;
+}
+a{
+    text-decoration: none;
+    color: #4f025a;
+}
+p{
+    font-family: "Monteserrat", sans-serif;
+    color:bisque;
+    text-align: right;
+}
+
+
+#contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 5vw;
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+    background-color: bisque;
+    font-family: "Montserrat", sans-serif;;
+    color: #4f025a;
+}
+
+@media screen and (max-width: 500px){
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 15px;
+        font-weight: 50;
+    }
+    #second{
+        width: 40vw;
+        margin-left: 50%;
+    }
+    body{
+        overflow: hidden;
+    }
+}
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset="UTF8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="CSS.css">
+    </header>
+
+    <body>
+        <form method="post" action="contact.php">
+            <h1>Contactez-nous</h1>
+            <fieldset>
+                <legend>Vos coordonnées</legend>
+
+                <label for="nom">Nom :*</label>
+                <input id="nom" placeholder="nom" name="nom" type="text" required="required"  />
+
+                <label for="prenom">Prénom :*</label>
+                <input id="prenom" placeholder="prénom" name="prenom" type="text" required="required" />
+            
+                <label for="tel">Téléphone :*</label>
+                <input id="tel" placeholder="votre téléphone" type="tel" name="tel" required="required" />
+            
+                <label for="email">Email :*</label>
+                <input id="email" placeholder="email" type="email" name="email" required="required" />
+            
+                <label for="obj">Objet :*</label>
+                <input id="obj" placeholder="objet" type="text" name="obj" required="required" />
+            
+            </fieldset>
+
+            <fieldset>
+                <legend>Votre message</legend>
+                <textarea name="message" placeholder="message" required="required">
+                    </textarea>
+            </fieldset>
+
+
+            <p>* Tous les champs sont obligatoires</p>
+            <input type="reset" />
+            <input type="button" value="Envoyer" onclick="verif()" />
+        </form>
+    </body>
+
+</html>

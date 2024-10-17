@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+h1{
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+    margin-left: 0;
+    font-family: "Abril Fatface", serif;
+    font-size: 150px;
+    z-index: 1;
+    width: 10vw;
+    color: #f9ffed;
+    font-weight: 200;
+    text-align: center;
+}
+h2, h3{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+h2{
+    font-size: 30px;
+}
+
+p{
+    font-family: "Montserrat", sans-serif;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: center;
+    background: linear-gradient(to right, #FFE4B5, #4f025a);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+    height: 100vh;
+    width: 80vw;
+    margin: auto;
+    align-items: center; 
+    justify-content: flex-end;
+}
+.grid-img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    transition: toggle 0,2 ease;
+    border-radius: 50%;
+}
+
+#retour{
+    color: white; 
+    font-size: 350px;
+}
+
+#section-0, #section-2{
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+
+}
+#section-0{
+    background-image: url(./images/Section1/background.jpg);
+    background-size: cover;
+}
+#section-2 {
+    background-image: url(./images/Section5/background-2.png);
+    background-size: cover;
+}
+#section-1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px; 
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5%;
+    width: 80%;
+    height: 80%;
+    background-color: white;
+}
+#section-1-1{
+    display: flex;
+    flex-direction: column;
+    column-gap: 2cm;
+    width: 500px;
+    margin: auto;
+}
+#section-1-img1{
+    width: 30%;
+}
+#section-1-img2{    
+    width: 300px;
+    height: 450px;
+}
+
+#section-5{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100vw;
+}
+#section-5-1{
+    display: flex;
+    flex-direction: row;
+    column-gap: 300px;
+    width: 80%;
+    margin: auto;
+}
+#section-5-2{
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+}
+#section-5-3{
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+    width: 80%;
+    margin: auto;
+}
+
+#section-5-img1{
+    width: 100%;
+}
+
+#section-5-img2{
+    width: 80%;
+}
+
+@media screen and (max-width: 780px){
+    .grid-img{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        display: block;
+    }
+    h1{
+        writing-mode: vertical-lr;
+        text-orientation: sideways;
+        margin-bottom: 70%;
+        font-family: "Abril Fatface", serif;
+        font-size: 60px;
+        z-index: 1;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:  wrap;
+        gap: 2px;
+    }
+    #retour{
+        font-size: 200px;
+    }
+}
+@media screen and (max-width: 500px){
+    h1{
+        writing-mode: vertical-lr;
+        text-orientation: sideways;
+        font-family: "Abril Fatface", serif;
+        font-size: 50px;
+        z-index: 1;
+        margin-bottom: 70%;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1px;
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 100vh;
+        width: 200px;
+        margin: auto;
+        overflow: scroll;
+        justify-content: flex-start;
+        margin-left: 10px;
+    }
+    .grid-img{
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+    }
+    #retour{
+        font-size: 150px;
+    }
+}
