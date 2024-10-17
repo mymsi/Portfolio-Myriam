@@ -57,7 +57,6 @@ p{
     object-fit: cover;
     display: block;
     transition: toggle 0,2 ease;
-    border-radius: 50%;
 }
 
 #retour{
