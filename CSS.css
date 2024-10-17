@@ -41,6 +41,7 @@ body {
     flex-wrap: wrap;
     width: 95vw;
     float: left;
+    overflow: hidden;
 }
 img{
     width: 365px;
