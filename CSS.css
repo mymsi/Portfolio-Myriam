@@ -25,6 +25,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100vw;
+    overflow: hidden;
 }
 
 #flex-1{
