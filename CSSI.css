@@ -18,8 +18,10 @@ body{
     color: white; 
     font-size: 40px;
     position: fixed;
-    top: 2vh;
+    margin-top: 5px;
     left: 2vw;
+    z-index: 9999999;
+    
 }
 
 #grid {
