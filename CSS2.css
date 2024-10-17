@@ -34,7 +34,7 @@ p{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100vw;
+    width: 95vw;
     justify-content: center;
     background: linear-gradient(to right, #FFE4B5, #4f025a);
 }
