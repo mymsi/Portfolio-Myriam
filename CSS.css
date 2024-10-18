@@ -17,6 +17,7 @@ body {
 #second{
     display: flex;
     flex-direction: column;
+    row-gap: 2vh;
     width: 30vw;
     margin-left: 60%;
 }
