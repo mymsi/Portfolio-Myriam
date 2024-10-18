@@ -64,11 +64,11 @@ a{
 }
 p{
     font-family: "Monteserrat", sans-serif;
-    text-align: right;
 }
 .messageAccueil {
     color: bisque;
     line-height: 5px;
+    text-align: right;
 }
 
 
@@ -91,7 +91,7 @@ p{
     text-decoration: underline;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 50vw){
     h2{
         font-size: 30px;
     }
