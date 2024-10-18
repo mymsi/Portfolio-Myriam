@@ -57,7 +57,7 @@ body {
     color: bisque;
     text-decoration: none;
     text-align: right;
-    line-height: 40px;
+    margin-top: 15vh;
 }
 a{
     text-decoration: none;
@@ -95,8 +95,7 @@ p{
 @media screen and (max-width: 500px){
    .messageAccueil {
     color: bisque;
-    line-height: 20px;
-    text-align: right;
+    text-align: left;
     font-size: 15px;
 }
     
@@ -105,12 +104,12 @@ p{
     font-size: 30px;
     color: bisque;
     text-decoration: none;
-    text-align: right;
+    text-align: left;
 }
 
     #second{
-        width: 50vw;
-        margin-left: 50%;
+        width: 70vw;
+        margin-left: 10%;
     }
     body{
         overflow: hidden;
