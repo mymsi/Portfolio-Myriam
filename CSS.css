@@ -97,22 +97,22 @@ p{
     color: bisque;
     text-align: left;
     font-size: 15px;
-}
+    }
     
-.titreAccueil{
-    font-family: "Abril Fatface", serif;
-    font-size: 30px;
-    color: bisque;
-    text-decoration: none;
-    text-align: left;
-}
-
-    #second{
-        width: 70vw;
-        margin-left: 10%;
+    .titreAccueil{
+        font-family: "Abril Fatface", serif;
+        font-size: 30px;
+        color: bisque;
+        text-decoration: none;
+        text-align: left;
     }
-    body{
-        overflow: hidden;
-    }
+    
+        #second{
+            width: 70vw;
+            margin-left: 10%;
+        }
+        body{
+            overflow: hidden;
+        }
 }
 
