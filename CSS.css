@@ -67,7 +67,8 @@ p{
     text-align: right;
 }
 .messageAccueil {
-    color:bisque;
+    color: bisque;
+    line-height: 5px;
 }
 
 
