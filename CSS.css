@@ -92,7 +92,7 @@ p{
     text-decoration: underline;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 800px){
    .messageAccueil {
     color: bisque;
     text-align: left;
