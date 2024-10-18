@@ -51,7 +51,7 @@ body {
     display: block;
 }
 
-h2{
+.titreAccueil{
     font-family: "Abril Fatface", serif;
     font-size: 60px;
     color: bisque;
