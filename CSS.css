@@ -19,6 +19,7 @@ body {
     flex-direction: column;
     width: 30vw;
     margin-left: 60%;
+    row-gap: 10px;
 }
 #flex-0{
     display: flex;
@@ -57,7 +58,7 @@ body {
     color: bisque;
     text-decoration: none;
     text-align: right;
-    margin-top: 15vh;
+    margin-top: 10vh;
 }
 a{
     text-decoration: none;
