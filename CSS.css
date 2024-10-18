@@ -19,7 +19,7 @@ body {
     flex-direction: column;
     width: 30vw;
     margin-left: 60%;
-    row-gap: 0px;
+    column-gap: 20px;
 }
 #flex-0{
     display: flex;
