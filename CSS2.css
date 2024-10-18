@@ -142,6 +142,20 @@ p{
     width: 80%;
 }
 
+.grid-item{
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.grid-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.2s ease;
+}
+
 @media screen and (max-width: 780px){
     .grid-img{
         width: 200px;
