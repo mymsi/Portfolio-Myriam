@@ -19,7 +19,6 @@ body {
     flex-direction: column;
     width: 30vw;
     margin-left: 60%;
-    column-gap: 20px;
 }
 #flex-0{
     display: flex;
@@ -59,7 +58,7 @@ body {
     text-decoration: none;
     text-align: right;
     margin-top: 10vh;
-    padding-bottom: 0;
+    margin-bottom: 1vh;
 }
 a{
     text-decoration: none;
