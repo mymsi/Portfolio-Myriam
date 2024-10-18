@@ -91,7 +91,7 @@ p{
     text-decoration: underline;
 }
 
-@media screen and (max-width: 50vw){
+@media screen and (max-width: 500px){
     h2{
         font-size: 30px;
     }
