@@ -106,12 +106,8 @@ p{
     color: bisque;
     text-decoration: none;
     text-align: right;
-    line-height: 30px;
 }
-    p{
-        font-size: 15px;
-        font-weight: 50;
-    }
+
     #second{
         width: 50vw;
         margin-left: 50%;
