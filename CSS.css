@@ -83,6 +83,10 @@ p{
     color: #4f025a;
 }
 
+.lienBlanc{
+    color: bisque;
+}
+
 @media screen and (max-width: 500px){
     h2{
         font-size: 30px;
