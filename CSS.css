@@ -64,8 +64,10 @@ a{
 }
 p{
     font-family: "Monteserrat", sans-serif;
-    color:bisque;
     text-align: right;
+}
+.messageAccueil {
+    color:bisque;
 }
 
 
