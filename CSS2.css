@@ -160,6 +160,10 @@ p{
         font-size: 60px;
         z-index: 1;
     }
+     p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    }
     .wrapper{
         display: flex;
         flex-direction: row;
@@ -201,7 +205,7 @@ p{
     margin-top: 0;
     }
      #section-1-img1{
-    width: 100vw;
+    width: 80vw;
     }
     #section-1-img2{    
         width: 50%;
@@ -281,7 +285,7 @@ p{
     margin-top: 0;
     }
      #section-1-img1{
-    width: 100vw;
+    width: 80vw;
     }
     #section-1-img2{    
         width: 50%;
