@@ -226,7 +226,7 @@ p{
     #section-5-1{
     display: flex;
     flex-direction: row;
-    column-gap: 200px;
+    column-gap: 50px;
     width: 80%;
     margin: auto;
     }
@@ -306,7 +306,7 @@ p{
     #section-5-1{
     display: flex;
     flex-direction: row;
-    column-gap: 100px;
+    column-gap: 50px;
     width: 80%;
     margin: auto;
     }
